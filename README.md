@@ -1,63 +1,75 @@
 Carrinho de Compras - Projeto em HTML, CSS e JavaScript
+
 Preview do Carrinho de Compras
 
 Um carrinho de compras interativo desenvolvido com HTML, CSS e JavaScript puro, utilizando Bootstrap para o layout responsivo.
 
-Funcionalidades
-Adicionar/remover itens do carrinho
+Funcionalidades:
 
-Cálculo automático do subtotal
+1. Adicionar/remover itens do carrinho
 
-Interface responsiva
+2. Cálculo automático do subtotal
 
-Contador de quantidade por item
+3. Interface responsiva
 
-Exibição do valor total da compra
+4. Contador de quantidade por item
 
-Tecnologias Utilizadas
-HTML5
+5. Exibição do valor total da compra
 
-CSS3
+Tecnologias Utilizadas:
+  
+-HTML5
 
-JavaScript (ES6)
+-CSS3
 
-Bootstrap 4
+-JavaScript (ES6)
 
-Font Awesome (ícones)
+-Bootstrap 4
 
-Estrutura do Projeto
+-Font Awesome (ícones)
+
+Estrutura do Projeto:
 
 carrinho-compras/
 ├── index.html
+
 ├── css/
+
 │   └── cart.css
+
 ├── js/
+
 │   └── cart.js
+
 ├── README.md
 
 
-Como Usar
-Clone o repositório ou faça o download dos arquivos
+Como Usar:
 
-Abra o arquivo index.html no seu navegador
+-Clone o repositório ou faça o download dos arquivos
 
-Interaja com os botões "+" e "-" para ajustar as quantidades
+-Abra o arquivo index.html no seu navegador
 
-Observe o cálculo automático dos valores
+-Interaja com os botões "+" e "-" para ajustar as quantidades
 
-Funcionamento do Código
-O JavaScript implementa três funções principais:
+-Observe o cálculo automático dos valores
 
-adicionarItem(item) - Incrementa a quantidade de um item e recalcula o total
+Funcionamento do Código:
 
-removerItem(item) - Decrementa a quantidade de um item (se > 0) e recalcula o total
+-O JavaScript implementa três funções principais:
 
-valorCompra() - Calcula o subtotal de todos os itens no carrinho
+-adicionarItem(item) - Incrementa a quantidade de um item e recalcula o total
+
+-removerItem(item) - Decrementa a quantidade de um item (se > 0) e recalcula o total
+
+-valorCompra() - Calcula o subtotal de todos os itens no carrinho
 
 Personalização
+
 Para adicionar mais produtos:
 
 Adicione um novo elemento HTML com a estrutura produtoX (onde X é o índice)
+
 
 Atualize os arrays no JavaScript:
 
